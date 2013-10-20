@@ -7,8 +7,8 @@
     sample application.
   </h2>
 
-  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
 </div>
 
-<%= link_to image_tag("Rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+<%= link_to image_tag("Rails.png", alt: "Rails", width: 40, height: 40), 'http://vk.com/pavel_mix' %>
 
