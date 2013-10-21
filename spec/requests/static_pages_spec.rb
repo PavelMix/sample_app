@@ -7,7 +7,7 @@ describe "Static pages" do
   describe "Home page" do
     before { visit root_path }
 
-    it { should have_content('Sample App') }
+    it { should have_content('Mix_Twitter') }
     it { should have_title(full_title('')) }
     it { should_not have_title('| Home') }
 
@@ -19,8 +19,6 @@ describe "Static pages" do
     page.should # fill in
     click_link "Home"
     click_link "Sign up now!"
-    page.should # fill in
-    click_link "sample app"
     page.should # fill in
   end
   end
